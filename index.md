@@ -3,4 +3,4 @@ Come back later!
 
 [Home](https://UFifty50.github.io/)
 
-[About me](https://UFifty50.github.io/home/)
+[About me](https://UFifty50.github.io/home)
