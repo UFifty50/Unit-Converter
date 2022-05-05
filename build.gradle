@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    // Use Maven Central for resolving dependencies.
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+}
+
+mainClassName = 'xyz.ufifty50sh.gfcl.App'
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'xyz.ufifty50sh.gfcl.App'
+    }
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir 'java/xyz/ufifty50sh/gfcl'
+        }
+    }
+}
