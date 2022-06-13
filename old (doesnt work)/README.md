@@ -1,5 +1,5 @@
 # This project is dead
-The folder above this should be a java rewrite of the project
+The directory above this should be a java rewrite of the project
 
 ```
 # GUI-FTC-CTF-LYD
