@@ -1,0 +1,10 @@
+[package]
+name = "GUI-FTC-CTF-LYD"
+version = "1.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+eframe = { version = "0.22.0", features = ["persistence"]}
+serde = { version = "1.0.130", features = ["derive"] }
