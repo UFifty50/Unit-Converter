@@ -88,14 +88,14 @@ public class App extends JPanel {
   }
 
   static float cToF(float c) {
-    return c * 1.8 + 32;
+    return c * (float) 1.8 + 32;
     //   String[] tmp = ;
     //      System.out.println(result.substring(0, result.indexOf(".")+4));
     //   result = tmp[1].length() > 3 ? tmp[1].substring(0, 3) : tmp[1];
   }
 
   static float fToC(float f) {
-    return (f - 32) / 1.8;
+    return (f - 32) / (float) 1.8;
     //     return Double.parseDouble(result.length() > 5 ? result.substring(0, 5) : result);
   }
 }
